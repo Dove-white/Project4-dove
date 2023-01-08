@@ -65,7 +65,7 @@
 }
 
 .fa-magnifying-glass:hover {
-    background-color: var(--ash);
+  background-color: var(--ash);
   color: var(--border-color);
   transition: 0.5s ease;
 }
@@ -86,9 +86,10 @@
   font-size: 14px;
 }
 
-.link:hover,.main__heading3:hover {
-    text-decoration: underline;
-    transition: 0.5s ease-out;
+.link:hover,
+.main__heading3:hover {
+  text-decoration: underline;
+  transition: 0.5s ease-out;
 }
 
 .heading__container {
@@ -118,13 +119,13 @@
 }
 
 .fa-dove {
-    color: var(--white);
-    cursor: pointer;
+  color: var(--white);
+  cursor: pointer;
 }
 
 .fa-dove:hover {
-    transform: translateX(4px);
-    transition: 0.5s ease;
+  transform: translateX(4px);
+  transition: 0.5s ease;
 }
 
 .main__heading3 {
@@ -148,91 +149,94 @@
   padding: 10px;
   background-color: var(--white);
   border-radius: 50%;
+  box-shadow: 0px 17px 4px 0px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 0px 17px 4px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 17px 4px 0px rgba(0, 0, 0, 0.61);
 }
 
 .advert:hover {
-    transform: translate(-30px,-20px);
-    transition: 1s ease;
+  transform: translate(-30px, -20px);
+  transition: 1s ease;
 }
 
 .information__advert:hover {
-    transform: translate(-40px,-20px);
+  transform: translate(-40px, -20px);
 }
 
 .owners__advert:hover {
-    transform: none;
+  transform: none;
 }
 
 .information__advert__img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 .information__advert {
-    left: 16%;
-    top: 10px;
+  left: 16%;
+  top: 10px;
 }
 
 .promotion__advert__img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
 .promotion__advert {
-    left: 36%;
-    top: 30px;
+  left: 36%;
+  top: 30px;
 }
 
 .location__advert__img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .location__advert {
-    left: 53%;
-    top: 60px;
+  left: 53%;
+  top: 60px;
 }
 
 .owners__advert__img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .owners__advert__img:hover {
-    width: 200px;
-    height: 200px;
-    transition: 0.5s ease;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s ease;
 }
 
 .owners__advert {
-    left: 66%;
-    top: 100px;
+  left: 66%;
+  top: 100px;
 }
 
 .owners__advert:hover {
-    top: 60px;
+  top: 60px;
 }
 
 .advert__text {
-    position: absolute;
-    top: 40%;
-    right: 24%;
-    color: var(--white);
-    font-size: 35px;
-    font-weight: 900;
-    font-family: none;
+  position: absolute;
+  top: 40%;
+  right: 24%;
+  color: var(--white);
+  font-size: 35px;
+  font-weight: 900;
+  font-family: none;
 }
 
 main {
-    height: 700px;
-    background-color: var(--white);
+  height: 700px;
+  background-color: var(--white);
 }
 
 footer {
-    height: 500px;
+  height: 500px;
 }
