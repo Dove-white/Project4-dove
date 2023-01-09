@@ -11,6 +11,34 @@
   --white: white;
 }
 
+@media only screen and (max-width: 490px) {
+  .nav__bar__icon {
+  border: 1px solid var(--border-color);
+  background-color: var(--ash);
+  padding: 5px 20px;
+  border-radius: 40px 0 0 40px;
+  font-size: 14px;
+  color: var(--border-color);
+  }
+
+  .nav__container,.adverts__section {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 491px) {
+  .nav__bar__icon {
+    display: none;
+  }
+
+  .adverts__section {
+    display: flex;
+  }
+
+  
+}
+
 .body {
   background-image: url(../img/background\ _dove2.jpg);
   background-repeat: no-repeat;
@@ -139,7 +167,7 @@
 
 .adverts__section {
   margin-top: 70px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   position: relative;
 }
