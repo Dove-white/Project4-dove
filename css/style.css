@@ -13,16 +13,27 @@
 
 @media only screen and (max-width: 490px) {
   .nav__bar__icon {
-  border: 1px solid var(--border-color);
-  background-color: var(--ash);
-  padding: 5px 20px;
-  border-radius: 40px 0 0 40px;
-  font-size: 14px;
-  color: var(--border-color);
+    border: 1px solid var(--border-color);
+    background-color: var(--ash);
+    padding: 5px 20px;
+    border-radius: 40px 0 0 40px;
+    font-size: 14px;
+    color: var(--border-color);
   }
 
-  .nav__container,.adverts__section {
+  .nav__container,
+  .adverts__section {
     display: none;
+  }
+
+  .car__products__container {
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+
+  main {
+    height: 2000px;
   }
 
 }
@@ -36,7 +47,15 @@
     display: flex;
   }
 
-  
+  main {
+    height: 1000px;
+  }
+
+  .car__products__container {
+    justify-content: center;
+  }
+
+
 }
 
 .body {
@@ -167,7 +186,6 @@
 
 .adverts__section {
   margin-top: 70px;
-  /* display: flex; */
   justify-content: center;
   position: relative;
 }
@@ -177,9 +195,9 @@
   padding: 10px;
   background-color: var(--white);
   border-radius: 50%;
-  box-shadow: 0px 17px 4px 0px rgba(0, 0, 0, 0.61);
-  -webkit-box-shadow: 0px 17px 4px 0px rgba(0, 0, 0, 0.61);
-  -moz-box-shadow: 0px 17px 4px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .advert:hover {
@@ -261,10 +279,121 @@
 }
 
 main {
-  height: 700px;
+  /* height: 1000px; */
   background-color: var(--white);
 }
 
 footer {
   height: 500px;
+}
+
+/* _________________________main-first-section____________ */
+
+.main__first__heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+}
+
+.logo2 {
+  width: 400px;
+  height: auto;
+}
+
+.logo1 {
+  width: 100px;
+  height: auto;
+}
+
+.dove__icon2 {
+  color: black;
+  font-size: 40px;
+}
+
+.logo__container {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  right: 35%;
+}
+
+.cars__heading__container {
+  position: relative;
+}
+
+.car__heading__content {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+
+.dove__icon3 {
+  color: black;
+  font-size: 50px;
+}
+
+.car__products__container {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.car1__container {
+  position: relative;
+  width: 400px;
+}
+
+.car1__content {
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+  width: 300px;
+  height: 200px;
+  border-radius: 0 0 50% 50%;
+  position: relative;
+}
+
+.car1__img {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 10%;
+}
+
+.car1__img:hover {
+  transform: translate(4px, 2px);
+  transition: 0.5s ease;
+}
+
+.motor__img {
+  width: 230px;
+  top: 0;
+  right: -10%;
+  transform: rotateZ(5deg);
+}
+
+.lamborghini__img {
+  width: 350px;
+  top: 35%;
+  right: -30%;
+  transform: rotateZ(5deg);
+}
+
+.lamborghini__img:hover,.motor__img:hover {
+  transform: translate(4px, 2px) rotateZ(5deg);
+}
+
+.car__text__container {
+  width: 280px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: -40%;
+}
+
+.car__text {
+  text-transform: uppercase;
+  line-height: 14px;
+  font-weight: 700;
 }
